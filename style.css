@@ -1,6 +1,6 @@
+
 #menu a:hover {
     background: #E5F0FF;
-    color: #039;
 }
 
 
@@ -29,9 +29,7 @@
     color: #FFF;
     padding: 8px;
     display: inline-block;
-    text-decoration: none;
-    transition: background .4s;  
-         
+    text-decoration: none; 
 }
 
 #menu-h ul li a:hover {
@@ -100,3 +98,15 @@ footer.fixar-rodape{
     margin-top: 50px;     
     background-color: rgba(37, 37, 39, 0.800);
 }
+
+
+div.figura {
+    float: right;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  div.figura p {
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+  }
