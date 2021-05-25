@@ -66,8 +66,6 @@ p{
     line-height: 2.0;
 }
 
-
-
 footer.fixar-rodape{
     border-top: 1px solid rgb(37, 37, 39);
     bottom: 0;
@@ -99,7 +97,8 @@ h3{
 
 .imagem {
     position: relative;
-  }
+}
+
 .capa {
     display: none;
 }
@@ -114,4 +113,59 @@ h3{
     height: 100%;
     position: absolute;
     top: 0;
+}
+
+
+.container {
+    width: 50%;
+}
+
+.form-contact {
+    width: 100%;
+}
+
+.form-contact-input {
+    width: 100%;
+    color:black;
+    font-size: 18px;
+    background-color: white;
+    border: 7px solid red;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    text-indent: 13px;
+}
+
+.form-contact-textarea {
+    width: 100%;
+    color: black;
+    font-size: 18px;
+    background-color: white;
+    border: 7px solid red;
+    height: 200px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    text-indent: 13px;
+    padding-top: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-contact-button {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: white;
+    height: 40px;
+    opacity: 0.8;
+    margin-bottom: 20px;    
+    cursor: pointer;
+    background: black;
+    display: block;
+    border: none;
+    transition: 0.5s;
+}
+
+.form-contact-button:hover {
+    opacity: 3;
 }
