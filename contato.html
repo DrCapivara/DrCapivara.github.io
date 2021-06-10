@@ -61,8 +61,26 @@
 
                     <input type="email" class="form-contact-input" name="email" placeholder="Email" required />
 
-                    <textarea class="form-contact-textarea" name="conteudo" placeholder="Sua mensagem"
-                        required></textarea>
+                    <textarea class="form-contact-textarea" name="conteudo" placeholder="Sua mensagem" required>
+                    </textarea>
+
+                    <input type="text" class="form-contact-input" name="Em qual período prefere nosso contato?" placeholder="Período para contato" />
+                    
+                    <p>Como prefere o nosso contato?</p> <br>
+                  
+                    <div class="formaContato">
+
+                        <label for="radio-email"><input type="radio" name="contato" value="email"> Email</label>
+
+
+                        <label for="radio-telefone"><input type="radio" name="contato" value="telefone">
+                            Telefone</label>
+
+
+                        <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp">
+                            WhatsApp</label>
+
+                    </div>
 
                     <button type="submit" class="form-contact-button">Enviar</button>
                 </form>

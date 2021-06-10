@@ -121,6 +121,7 @@ h3{
     width: 50%;
 }
 
+
 .form-contact {
     width: 100%;
 }
@@ -170,3 +171,11 @@ h3{
 .form-contact-button:hover {
     opacity: 3;
 }
+
+
+.formaContato {
+    color: white;
+    font-size: medium;    
+}
+
+
