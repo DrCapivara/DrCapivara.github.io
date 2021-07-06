@@ -97,7 +97,11 @@ footer.fixar-rodape{
 
 
 h3{
+    font-size: 20px;
     color: white;
+    width: 1100px;
+    line-height: 2.0;
+
 }
 
 
@@ -184,7 +188,7 @@ h3{
     background-color: transparent;
     width: 320px;
     height: 320px;
-    perspective: 1000px;
+    perspective: 2000px;
 }
 
 .flip-card-inner {
@@ -194,7 +198,6 @@ h3{
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .flip-card:hover .flip-card-inner {
@@ -218,4 +221,12 @@ h3{
     background-color: #2980b9;
     color: white;
     transform: rotateY(180deg);
+}
+
+.flip-card-back h3{
+    margin-left: 130px;
+}
+
+.card-left{
+    margin-left: -230px;
 }
