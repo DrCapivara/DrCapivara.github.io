@@ -101,12 +101,13 @@ h3{
     color: white;
     width: 1100px;
     line-height: 2.0;
+    position: static;
 
 }
 
 
 .imagem {
-    position: relative;
+    position: static;
 }
 
 .capa {
