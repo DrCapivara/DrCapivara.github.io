@@ -9,6 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heroínas e Heróis Negras/os e Indígenas</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="contato.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script> 
+
 
 </head>
 
@@ -57,13 +61,14 @@
             <div class="container">
                 <form action="#" class="form-contact" method="post" tabindex="1">
 
-                    <input type="text" class="form-contact-input" name="nome" placeholder="Nome" />
+                    <input type="text" class="form-contact-input" name="nome" placeholder="Nome" required />
 
                     <input type="email" class="form-contact-input" name="email" placeholder="Email" required />
 
-                    <textarea class="form-contact-textarea" name="conteudo" placeholder="Sua mensagem" required>
-                    </textarea>
-
+                    <input type ="mensagem" class="form-contact-textarea" name="conteudo" placeholder="Sua mensagem" required>
+                    <br>
+                    <br>
+                  
                     <input type="text" class="form-contact-input" name="Em qual período prefere nosso contato?" placeholder="Período para contato" />
                     
                     <p>Como prefere o nosso contato?</p> <br>
@@ -101,6 +106,7 @@
     </footer>
 </center>
 </body>
+<script type="text/javascript" src="contato.js"></script>
 
 
 </html>
